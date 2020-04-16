@@ -19,8 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"999999"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon_Teleport_Entrance"
@@ -47,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -77,7 +79,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"0"
-
+		
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
@@ -93,7 +95,7 @@
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Icon_Upgrade_2"
 		{
 			"ControlName"	"CIconPanel"
@@ -109,7 +111,7 @@
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Icon_Upgrade_3"
 		{
 			"ControlName"	"CIconPanel"
@@ -125,8 +127,7 @@
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
-
-
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -139,7 +140,7 @@
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
-
+		
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -171,7 +172,7 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -189,7 +190,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-
+		
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -199,7 +200,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -237,7 +238,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+		
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -321,7 +322,7 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}	
+			}
 			
 			"UpgradeIcon"
 			{

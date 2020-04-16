@@ -19,8 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"999999"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon"
@@ -47,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -77,7 +79,7 @@
 		"wide"			"160"
 		"tall"			"43"
 		"visible"		"0"
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -95,7 +97,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-
+		
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -105,7 +107,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -133,7 +135,7 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -143,7 +145,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+		
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"

@@ -1,60 +1,39 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"999999"				
-	}
-	
 	"ChargeLabel"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabel"
-		"xpos"					"999999"
+		"ControlName"		"CExLabel"
+		"fieldName"			"ChargeLabel"
+		"xpos"				"9999"
 	}
-	"PlayerStickyBG"
-	{
-		"ControlName"			"CExImageButton"
-		"fieldName"			"PlayerStickyBG"
-		"xpos"				"c30"
-		"ypos"				"c115"
-		"zpos"				"0"
-		"wide"				"20"
-		"tall"				"20"
-		"visible"			"1"		
-		"enabled"			"1"
-		"defaultbgcolor_override"	"0 0 0 130"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"			"999999"
-	}
+	
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
-		"fieldName"		"ChargeMeter"
-		"font"			"Default"
-		"xpos"			"c-25"
-		"ypos"			"c143"
-		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"4"			
+		"fieldName"			"ChargeMeter"
+		"font"				"Default"
+		"xpos"				"c-25"
+		"ypos"				"c143"
+		"zpos"				"2"
+		"wide"				"50"
+		"tall"				"4"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"textAlignment"		"Left"
-		"dulltext"		"0"
+		"dulltext"			"0"
 		"brighttext"		"0"
-		"MeterFG"		"255 255 255 255"
+		"MeterFG"			"255 255 255 255"
 		"MeterFG_override"	"255 255 255 255"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"			"255 255 255 255"
 		"fgcolor_override"	"255 255 255 255"
-		"MeterBG"		"0 0 0 130"
+		"MeterBG"			"0 0 0 130"
 		"MeterBG_override"	"0 0 0 130"
-		"bgcolor"		"0 0 0 130"
+		"bgcolor"			"0 0 0 130"
 		"bgcolor_override"	"0 0 0 130"
-	}					
-		
+	}
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -65,13 +44,6 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"			"999999"	
-		}	
 		
 		"NumPipesLabel"
 		{
@@ -92,12 +64,13 @@
 			"font"			"roboto18"
 			"fgcolor"		"255 255 255 255"
 		}
+		
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"999999"
-		}		
+			"xpos"			"9999"
+		}
 	}
 	
 	"NoPipesPresentPanel"
@@ -111,13 +84,6 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"			"999999"
-		}
-
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -141,7 +107,22 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"999999"
-		}			
-	}				
+			"xpos"			"9999"
+		}
+	}
+	"PlayerStickyBG"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"PlayerStickyBG"
+		"xpos"				"c30"
+		"ypos"				"c115"
+		"zpos"				"0"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"defaultbgcolor_override"	"0 0 0 130"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"				"9999"
+	}
 }

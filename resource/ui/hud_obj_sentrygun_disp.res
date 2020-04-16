@@ -19,8 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"999999"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon_Sentry_1"
@@ -47,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -93,13 +95,12 @@
 			"icon"			""
 			"iconColor"		"255 255 255 255"
 		}
-	
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
 			"xpos"			"114"
-			"ypos"			"0"
 			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"
@@ -168,7 +169,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -196,7 +197,7 @@
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -217,7 +218,7 @@
 			"tall"			"20"
 			"visible"		"0"
 			
-			"KillIcon"	
+			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
@@ -232,7 +233,7 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-						
+			
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
@@ -251,8 +252,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-					
-			"ShellIcon"	
+			
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
@@ -276,7 +277,7 @@
 				"xpos"			"12"
 				"ypos"			"7"
 				"wide"			"38"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

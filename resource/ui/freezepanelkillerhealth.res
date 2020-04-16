@@ -4,55 +4,72 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"999999"
-	}	
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"999999"
-	}	
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"999999"
-	}	
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"999999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
+	
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusHealthValue"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"5"
-		"wide"				"50"
-		"tall"				"30"
-		"visible"			"1"
-		"enabled"			"1"
-		"textAlignment"		"center"
-		"labeltext"			"%health%"
+		"ControlName"	"Label"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"font"			"roboto34"
+		"labeltext"		"%health%"
 		"fgcolor_override"	"255 255 255 255"
-		"font"				"roboto34"
 	}
+	
 	"PlayerHealthBG"
 	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"PlayerHealthBG"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"2"
-		"wide"						"50"
-		"tall"						"30"
-		"visible"					"1"		
-		"enabled"					"1"
-		"defaultbgcolor_override"	"0 0 0 130"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"PlayerHealthBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"TextInsetX"	"9999"
 		"PaintBackgroundType"		"0"
-		"TextInsetX"				"999999"
-	}	
+		"defaultbgcolor_override"	"0 0 0 130"
+	}
 }

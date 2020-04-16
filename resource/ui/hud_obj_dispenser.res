@@ -19,8 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"999999"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon_Dispenser"
@@ -47,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -77,7 +79,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"0"
-
+		
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
@@ -93,7 +95,7 @@
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Icon_Upgrade_2"
 		{
 			"ControlName"	"CIconPanel"
@@ -109,7 +111,7 @@
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Icon_Upgrade_3"
 		{
 			"ControlName"	"CIconPanel"
@@ -125,7 +127,7 @@
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -138,7 +140,7 @@
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
-
+		
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -170,7 +172,7 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -226,7 +228,7 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -236,7 +238,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+		
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -247,7 +249,7 @@
 			"tall"			"31"
 			"visible"		"0"
 			
-			"AmmoIcon"	
+			"AmmoIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"AmmoIcon"
@@ -262,7 +264,7 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-
+			
 			"Ammo"
 			{	
 				"ControlName"	"ContinuousProgressBar"
@@ -279,7 +281,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-			}	
+			}
 			
 			"UpgradeIcon"
 			{

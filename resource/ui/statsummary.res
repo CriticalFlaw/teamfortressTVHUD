@@ -1,20 +1,20 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/statsummary.res"
 {
 	"TFStatsSummary"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"TFStatsSummary"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		"visible"	"1"
-		"enabled"	"1"
+		"fieldName"		"TFStatsSummary"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 	}
-
+	
 	"MainBackground"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -23,21 +23,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"
-	}	
-
+		"scaleImage"	"1"
+	}
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"MapInfo"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		"visible"	"0"
-		"enabled"	"1"
+		"fieldName"		"MapInfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
 		"bgcolor_override"	"46 43 42 255"
-	
+		
 		"Background"
 		{
 			"ControlName"	"ImagePanel"
@@ -114,7 +114,7 @@
 				"wrap"			"1"
 			}					
 		}
-	
+		
 		"InfoBG"
 		{
 			"ControlName"		"EditablePanel"

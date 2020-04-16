@@ -1,112 +1,74 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
-	"ResumeGameButton"
-	{
-		"label"		"Resume game"
-		"command"	"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"QuickplayButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Play MVM" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
 	"ServerBrowserButton"
 	{
-		"label" "Browse servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "Change server" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
+		"label"			"Servers"
+		"command"		"OpenServerBrowser"
+		"OnlyAtMenu"	"0"
+		"subimage" 		"glyph_server_browser"
 	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "Workshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "Create server"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"label"			"Create"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" 	"0"
+		"subimage"		""
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
+		"label"			"Store"
+		"command"		"engine open_store"
+		"subimage"		"glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Loadout"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label"			"Loadout"
+		"command"		"engine open_charinfo"
+		"subimage"		"glyph_items"
 	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
+	"NewUserForumsButton"
+	{
+		"label"			""
+		"Command"		"view_newuser_forums"
+		"subimage"		"glyph_tutorial"
+		"OnlyAtMenu"	"1"
+	}
+	"ReportBugButton"
+	{
+		"label"			""
+		"command"		"engine bug"
+		"subimage"		"glyph_bug"
+		"OnlyAtMenu"	"1"
+	}
+	"CoachPlayersButton"
+	{
+		"label"			""
+		"command"		"engine cl_coach_toggle"
+		"subimage"		"glyph_commentary"
+		"OnlyAtMenu"	"1"
+	}
 	"CallVoteButton"
 	{
-		"label"		"Vote"
-		"command"	"callvote"
+		"label"			"V"
+		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"subimage"		"icon_checkbox"
+		"tooltip"		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute"
+		"label"			"M"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"subimage"		"glyph_muted"
+		"tooltip"		"#MMenu_MutePlayers"
 	}
-	"RequestCoachButton"
+	"ReportPlayerButton"
 	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
+		"label"			"R"
+		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
