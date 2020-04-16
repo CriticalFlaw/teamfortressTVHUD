@@ -42,10 +42,10 @@
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"0"	
+		"scaleImage"	"0"
 	}
 	
-	"PlayerStatusHealthImageBG" // hide
+	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
@@ -59,21 +59,22 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"BuildingStatusHealthImageBG" // hide
+	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"	"9999"
-		"ypos"	"3"
+		"xpos"			"2"
+		"ypos"			"3"
 		"zpos"			"2"
-		"wide"	"22"
-		"tall"	"22"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
-	"PlayerStatusHealthBonusImage" // hide
+		"scaleImage"	"1"
+	}
+	
+	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
@@ -85,10 +86,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"RightJustify"  "1"
 		"autoResize"		"0"
 	}
+	
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"
@@ -100,12 +102,13 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"roboto12"
 		"fgcolor"		"TFTVHP"
 		"labeltext"		"%Health%"
 	}
-	"PlayerStatusHealthValueSpec2" // to create drop shadow
+	
+	"PlayerStatusHealthValueSpec2"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec2"
@@ -120,5 +123,5 @@
 		"font"			"roboto12"
 		"fgcolor"		"0 0 0 205"
 		"labeltext"		"%Health%"
-	}	
+	}
 }
