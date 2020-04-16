@@ -2,192 +2,155 @@
 {
 	"Spectator"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"Spectator"
 		"tall"			"480"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 	}
-	"specgui"
-	{
-	}
+	
+	"specgui" { }
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
+		"xpos"			"0"
+		"ypos"			"0"
 		"tall"			"0"
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
 	}
+	
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"bottombarblank"
 	{
-		"ControlName"		"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"40"	[$WIN32]
-		"wide"			"f0"	[$WIN32]
+		"xpos"			"0"
+		"ypos"			"40"
+		"wide"			"f0"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"font"			"roboto14"
 		"fgcolor"		"255 255 255 255"
 		"fgcolor_override"	"255 255 255 255"
 	}
+	
 	"BuyBackLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"320"
 		"tall"			"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
+	
 	"MapLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 		
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"TipLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"999999"
+		"xpos"			"9999"
 		"ypos"			"300"
 		"zpos"			"1"
 		"wide"			"270"
@@ -201,9 +164,9 @@
 		"model_wide"		"90"
 		"model_tall"		"55"
 		
-		"text_xpos"		"90"
-		"text_wide"		"170"
-		"text_center"	"1"
+		"text_xpos"			"90"
+		"text_wide"			"170"
+		"text_center"		"1"
 		
 		"max_text_height"	"90"
 		"padding_height"	"40"
@@ -218,7 +181,7 @@
 		}
 		
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -236,25 +199,5 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}	
+	}
 }
