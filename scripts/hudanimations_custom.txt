@@ -1,0 +1,45 @@
+// Bonus Health Pulse
+event HudHealthBonusPulse
+{
+	//Animate PlayerStatusHealthValue			FgColor		"TFTVHPBuff"	Accel 0.0 0.0
+	//Animate PlayerStatusHealthValueSpec		FgColor		"TFTVSpecHPBuff"	Accel 0.0 0.0
+	
+	Animate PlayerStatusHealthValueSpecPOV		FgColor		"TFTVSpecHPBuff"	Accel 0.0 0.0
+	
+	Animate	OverhealCover 	Alpha		"205"		Linear 0.0 0.2
+	Animate	OverhealCover 	Alpha		"0"			Linear 0.2 0.4
+	
+	
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 		0.0
+	StopEvent HudHealthBonusPulseLoop	0.0
+	
+	Animate PlayerStatusHealthValueSpecPOV		FgColor		"255 255 255 255"	Accel 0.0 0.0
+	
+	Animate	OverhealCover 	Alpha		"0"			Linear 0.2 0.4
+}
+//==================================================================================
+// Low Health Pulse
+event HudHealthDyingPulse
+{
+	Animate PlayerStatusHealthValue				FgColor		"TFTVHPLow"	Accel 0.0 0.0
+
+	Animate PlayerStatusHealthValueSpec			FgColor		"TFTVSpecHPLow"	Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpecPOV		FgColor		"TFTVSpecHPLow"	Accel 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 		0.0
+	StopEvent HudHealthDyingPulseLoop 	0.0
+	
+	Animate PlayerStatusHealthValue			FgColor		"TFTVHP"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec		FgColor		"TFTVSpecHP"		Accel 0.0 0.0
+}
