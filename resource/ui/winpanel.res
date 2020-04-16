@@ -6,37 +6,39 @@
 		"fieldName"			"TeamScoresPanel"
 		"xpos"				"0"
 		"ypos"				"5"
-		"zpos"				"5"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreBG"
-			"xpos"				"9999"
+			"tall"				"0"
+			"visible"			"0"
+			"border"			"TFFatLineBorderBlueBGMoreOpaque"
 		}
-		
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreBG"
-			"xpos"				"9999"
+			"tall"				"0"
+			"visible"			"0"
+			"border"			"TFFatLineBorderRedBGMoreOpaque"
 		}
 		
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabel"
-			"font"				"roboto18"
-			"fgcolor_override"	"255 255 255 255"
+			"font"				"robotoreg36"
+			"fgcolor_override"	"White"
 			"labelText"			"%blueteamname%"
-			"textAlignment"		"west"
-			"xpos"				"c-80"
+			"textAlignment"		"east"
+			"xpos"				"c-105"
 			"ypos"				"r85"
 			"zpos"				"4"
-			"wide"				"80"
+			"wide"				"100"
 			"tall"				"30"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -47,14 +49,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabelShadow"
-			"font"				"roboto18"
-			"fgcolor_override"	"0 0 0 130"
+			"font"				"robotoreg36"
+			"fgcolor_override"	"HudBlack"
 			"labelText"			"%blueteamname%"
-			"textAlignment"		"west"
-			"xpos"				"-1"
-			"ypos"				"-1"
+			"textAlignment"		"east"
+			"xpos"				"-2"
+			"ypos"				"-2"
 			"zpos"				"3"
-			"wide"				"80"
+			"wide"				"100"
 			"tall"				"30"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -65,16 +67,14 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
-			"font"				"robotoreg40"
-			"fgcolor_override"	"255 255 255 255"
+			"font"				"roboto40"
+			"fgcolor_override"	"White"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
-			"textinsetx"		"10"
 			"xpos"				"c-50"
 			"ypos"				"r85"
 			"zpos"				"4"
@@ -89,13 +89,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"robotoreg40"
-			"fgcolor_override"	"0 0 0 130"
+			"font"				"roboto40"
+			"fgcolor_override"	"HudBlack"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
-			"textinsetx"		"10"
-			"xpos"				"-1"
-			"ypos"				"-1"
+			"xpos"				"-2"
+			"ypos"				"-2"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"30"
@@ -108,18 +107,19 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
+		
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabel"
-			"font"				"roboto18"
-			"fgcolor_override"	"255 255 255 255"
+			"font"				"robotoreg36"
+			"fgcolor_override"	"White"
 			"labelText"			"%redteamname%"
-			"textAlignment"		"east"
-			"xpos"				"c0"
+			"textAlignment"		"west"
+			"xpos"				"c20"
 			"ypos"				"r85"
 			"zpos"				"3"
-			"wide"				"80"
+			"wide"				"100"
 			"tall"				"30"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -131,14 +131,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabelShadow"
-			"font"				"roboto18"
-			"fgcolor_override"	"0 0 0 130"
+			"font"				"robotoreg36"
+			"fgcolor_override"	"HudBlack"
 			"labelText"			"%redteamname%"
-			"textAlignment"		"east"
-			"xpos"				"-1"
-			"ypos"				"-1"
+			"textAlignment"		"west"
+			"xpos"				"-2"
+			"ypos"				"-2"
 			"zpos"				"3"
-			"wide"				"80"
+			"wide"				"100"
 			"tall"				"30"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -149,13 +149,12 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
-			"font"				"robotoreg40"
-			"fgcolor_override"	"255 255 255 255"
+			"font"				"roboto40"
+			"fgcolor_override"	"White"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"textinsetx"		"10"
@@ -173,13 +172,13 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"robotoreg40"
-			"fgcolor_override"	"0 0 0 130"
+			"font"				"roboto40"
+			"fgcolor_override"	"HudBlack"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"textinsetx"		"10"
-			"xpos"				"-1"
-			"ypos"				"-1"
+			"xpos"				"-2"
+			"ypos"				"-2"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"30"
@@ -192,7 +191,6 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
 	}
 	
 	"TopPlayersBG"
@@ -207,7 +205,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 130"
+		"fillcolor"			"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
 	"BluBG"
@@ -224,7 +222,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../HUD/tournament_panel_blu"
-
+		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
@@ -244,20 +242,29 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../HUD/tournament_panel_red"
-
+		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"WinPanelBG"
-		"xpos"				"9999"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"WinPanelBGBorder"
+		"xpos"				"cs-0.5"
+		"ypos"				"70"
+		"zpos"				"0"
+		"wide"				"p0.94"
+		"tall"				"185"
+		"visible"			"0"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"border"			"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WinningTeamLabel"
 		"font"				"roboto12"
@@ -277,13 +284,13 @@
 		"brighttext"		"0"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WinningTeamLabelDropshadow"
 		"xpos"				"9999"
 	}
 	"AdvancingTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AdvancingTeamLabel"
 		"font"				"roboto10"
@@ -303,13 +310,13 @@
 		"brighttext"		"0"
 	}
 	"AdvancingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AdvancingTeamLabelDropshadow"
 		"xpos"				"9999"
 	}
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WinReasonLabel"
 		"font"				"roboto10"
@@ -329,7 +336,7 @@
 		"brighttext"		"0"
 	}
 	"DetailsLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DetailsLabel"
 		"font"				"roboto10"
@@ -348,6 +355,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
+	
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -355,13 +363,13 @@
 		"xpos"				"9999"
 	}
 	"TopPlayersLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TopPlayerLabel"
 		"xpos"				"9999"
 	}
 	"PointsThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PointsThisRoundLabel"
 		"xpos"				"9999"
@@ -383,10 +391,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"Player1Name"
 		"font"				"roboto10"
-		"xpos"				"c-80"	[$WIN32]
-		"ypos"				"r40"
+		"xpos"				"c-80"
+		"ypos"				"40"
 		"zpos"				"3"
-		"wide"				"100"	[$WIN32]
+		"wide"				"100"
 		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -435,6 +443,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
+	
 	"Player2Avatar"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -498,6 +507,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
+	
 	"Player3Avatar"
 	{
 		"ControlName"		"CAvatarImagePanel"

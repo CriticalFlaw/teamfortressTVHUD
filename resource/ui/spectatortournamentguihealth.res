@@ -44,7 +44,6 @@
 		"enabled"		"1"
 		"scaleImage"	"0"
 	}
-	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -57,23 +56,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"2"
-		"ypos"			"3"
-		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"
 	}
-	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -89,6 +73,20 @@
 		"scaleImage"	"1"
 		"RightJustify"  "1"
 		"autoResize"		"0"
+	}
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"2"
+		"ypos"			"3"
+		"zpos"			"2"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_equip_bg"
+		"scaleImage"	"1"
 	}
 	
 	"PlayerStatusHealthValueSpec"

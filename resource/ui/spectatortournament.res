@@ -98,15 +98,15 @@
 			
 			"HealthIcon"
 			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"16"
-				"ypos"				"-4"
-				"zpos"				"5"
-				"wide"				"21"
-				"tall"				"21"
-				"visible"			"1"
-				"enabled"			"1"	
+				"ControlName"	"EditablePanel"
+				"fieldName"		"HealthIcon"
+				"xpos"			"16"
+				"ypos"			"-4"
+				"zpos"			"5"
+				"wide"			"21"
+				"tall"			"21"
+				"visible"		"1"
+				"enabled"		"1"	
 				"HealthBonusPosAdj"			"10"
 				"HealthDeathWarning"		"0.49"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -215,6 +215,37 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+			}
+			
+			"LoadoutIconsActiveItemRed"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"LoadoutIconsActiveItemRed"
+				"xpos"				"123"
+				"ypos"				"2"
+				"zpos"				"200"
+				"wide"				"30"
+				"tall"				"14"
+				"visible"			"0"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"proportionalToParent" "1"
+				//fillcolor_override "255 0 0 32"
+			}
+			"LoadoutIconsActiveItemBlue"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"LoadoutIconsActiveItemBlue"
+				"xpos"				"123"
+				"ypos"				"2"
+				"zpos"				"200"
+				"wide"				"30"
+				"tall"				"14"
+				"visible"			"0"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"proportionalToParent" "1"
+				//fillcolor_override "255 0 0 32"
 			}
 
 			"BluePlayerName"
@@ -361,7 +392,7 @@
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
-				"proportionalToParent" 	"1"
+				"proportionalToParent"	"1"
 				"image"					"../castingessentials/statuseffects/marked_for_death_red"
 			}
 			
@@ -431,7 +462,7 @@
 			"team1_player_delta_x"	"52"
 		}
 	}
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -550,8 +581,8 @@
 		"xpos"			"r270"
 		"ypos"			"300"
 		"zpos"			"1"
-		"wide"			"0"	//"200"
-		"tall"			"0"	//"80"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
@@ -573,7 +604,7 @@
 		
 		"itemmodelpanel"
 		{
-			"fieldName"		"itemmodelpanel"
+			"fieldName"			"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}

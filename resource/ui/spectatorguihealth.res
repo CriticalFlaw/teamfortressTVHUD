@@ -8,7 +8,6 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -17,7 +16,6 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -32,7 +30,6 @@
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}
-	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +55,6 @@
 		"labeltext"		"%Health%"
 		"fgcolor_override"		"255 255 255 255"
 	}
-	
 	"PlayerStatusHealthValueSpecPOV2"
 	{
 		"ControlName"	"CExLabel"
@@ -75,7 +71,6 @@
 		"fgcolor_override"	"30 30 30 185"
 		"labeltext"		"%Health%"
 	}
-	
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

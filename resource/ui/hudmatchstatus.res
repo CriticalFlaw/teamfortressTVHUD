@@ -27,39 +27,39 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/banner.mdl"
-			"skin"		"0"
-			"angles_x"	"30"
-			"angles_y"	"180"
-			"angles_z"	"0"
-			"origin_x"	"150"
-			"origin_y"	"0"
-			"origin_z"	"62"
-			"spotlight"	"1"
+			"modelname"		"models/props_ui/banner.mdl"
+			"skin"			"0"
+			"angles_x"		"30"
+			"angles_y"		"180"
+			"angles_z"		"0"
+			"origin_x"		"150"
+			"origin_y"		"0"
+			"origin_z"		"62"
+			"spotlight"		"1"
 
 			"animation"
 			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
+				"name"		"ref"
+				"sequence"	"ref"
+				"default"	"1"
 			}
 
 			"animation"
 			{
-				"name"			"intro"
-				"sequence"		"intro"
+				"name"		"intro"
+				"sequence"	"intro"
 			}
 			
 			"animation"
 			{
-				"name"			"outro"
-				"sequence"		"outro"
+				"name"		"outro"
+				"sequence"	"outro"
 			}
 		}
 	}
 	
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
@@ -75,8 +75,8 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
+		"fgcolor"		"TanLight"
 	}
 	
 	"CountdownLabelShadow"
@@ -116,12 +116,12 @@
 		{
 			"0"
 			{
-				"particle_xpos" "c0"
-				"particle_ypos" "c0"
+				"particle_xpos"		"c0"
+				"particle_ypos"		"c0"
 				"particle_scale"	"2"
-				"particleName"	"versus_door_slam"
-				"start_activated" "0"
-				"loop"	"0"
+				"particleName"		"versus_door_slam"
+				"start_activated"	"0"
+				"loop"				"0"
 			}
 		}
 
@@ -146,38 +146,38 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/versus_doors.mdl"
-			"skin"		"0"
-			"angles_x"	"0"
-			"angles_y"	"0"
-			"angles_z"	"0"
-			"origin_x"	"120"
-			"origin_y"	"0"
-			"origin_z"	"-77"
+			"modelname"		"models/vgui/versus_doors.mdl"
+			"skin"			"0"
+			"angles_x"		"0"
+			"angles_y"		"0"
+			"angles_z"		"0"
+			"origin_x"		"120"
+			"origin_y"		"0"
+			"origin_z"		"-77"
 
 			"animation"
 			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
+				"name"		"ref"
+				"sequence"	"ref"
+				"default"	"1"
 			}
 
 			"animation"
 			{
-				"name"			"open"
-				"sequence"		"open"
+				"name"		"open"
+				"sequence"	"open"
 			}
 			
 			"animation"
 			{
-				"name"			"close"
-				"sequence"		"close"
+				"name"		"close"
+				"sequence"	"close"
 			}
 
 			"animation"
 			{
-				"name"			"idle_closed"
-				"sequence"		"idle_closed"
+				"name"		"idle_closed"
+				"sequence"	"idle_closed"
 			}
 		}
 	}
@@ -196,16 +196,17 @@
 
 	"BGFrame"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-		"visible"			"0"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGFrame"
+		"xpos"			"cs-0.5"
+		"ypos"			"-5"
+		"zpos"			"0"
+		"wide"			"365"
+		"tall"			"28"
+		"visible"		"0"
+		
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"border"		"TFFatLineBorder"
 	}
 	
 	"RankUpLabel"
@@ -312,7 +313,6 @@
 			}
 		}	
 	}
-	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -324,8 +324,9 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"max_size"		"19"
+
 		"6v6_gap"		"4"
 		"12v12_gap"		"1"
 
@@ -344,15 +345,15 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"		"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"			"119 62 61 255"
+			"color_portrait_bg_blue"		"62 81 101 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
-			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
-			"percentage_health_low"	"0.3"
+			"color_bar_health_high"			"84 191 58 255"
+			"color_bar_health_med"			"191 183 58 255"
+			"percentage_health_med"			"0.6"
+			"color_bar_health_low"			"191 58 58 255"
+			"percentage_health_low"			"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
 			
@@ -382,7 +383,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
 			"classimagebg"
@@ -471,10 +472,9 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-				
-				"src_corner_height"	"22"
+				"src_corner_height"	"22"		// pixels inside the image
 				"src_corner_width"	"22"
-				"draw_corner_width"	"3"
+				"draw_corner_width"	"3"			// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 			}
 			"ReadyImage"
@@ -555,7 +555,7 @@
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/comp_player_status"	
+				"image"			"../HUD/comp_player_status"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"	
 			}
@@ -578,16 +578,16 @@
 
 	"BlueTeamPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BlueTeamPanel"
-		"xpos"				"-155"
-		"ypos"				"125"
-		"zpos"				"50"
-		"wide"				"150"
-		"tall"				"260"
-		"visible"			"0"
-		"enabled"			"1"
-		
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BlueTeamPanel"
+		"xpos"			"-155"
+		"ypos"			"125"
+		"zpos"			"50"
+		"wide"			"150"
+		"tall"			"260"
+		"visible"		"0"
+		"enabled"		"1"
+
 		if_large
 		{
 			"ypos"			"65"
@@ -686,10 +686,10 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
-				"tall"		"315"
+				"tall"			"315"
 			}
 		}
 		"BluePlayerListBG"
@@ -706,26 +706,26 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-			
+
 			if_large
 			{
-				"tall"		"325"
+				"tall"			"325"
 			}
 		}
 	}
 
 	"RedTeamPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"RedTeamPanel"
-		"xpos"				"r-5"
-		"ypos"				"125"
-		"zpos"				"50"
-		"wide"				"150"
-		"tall"				"260"
-		"visible"			"0"
-		"enabled"			"1"
-		
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RedTeamPanel"
+		"xpos"			"r-5"
+		"ypos"			"125"
+		"zpos"			"50"
+		"wide"			"150"
+		"tall"			"260"
+		"visible"		"0"
+		"enabled"		"1"
+
 		if_large
 		{
 			"ypos"			"65"
@@ -805,7 +805,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"		"117 107 94 255"
 		}
 		"RedPlayerList"
 		{
@@ -824,10 +824,10 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
-				"tall"		"315"
+				"tall"			"315"
 			}
 		}
 		"RedPlayerListBG"
@@ -844,10 +844,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-			
+
 			if_large
 			{
-				"tall"		"325"
+				"tall"			"325"
 			}
 		}
 	}

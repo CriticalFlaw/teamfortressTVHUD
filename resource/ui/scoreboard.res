@@ -2,16 +2,16 @@
 {
 	"scores"
 	{
-		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"			"scoreinfo"
-		"xpos"				"c-320"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"CTFClientScoreBoardDialog"
+		"fieldName"		"scoreinfo"
+		"xpos"			"c-320"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"0"
 		"avatar_width"		"50"
@@ -27,16 +27,16 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlueScoreBG"
-		"xpos"				"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"9999"
 	}
-	
+
 	"RedScoreBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"RedScoreBG"
-		"xpos"				"9999"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"9999"
 	}
 	
 	"MainBG"
@@ -190,7 +190,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm 
+		if_mvm
 		{
 			"visible"		"0"
 		}
@@ -350,7 +350,7 @@
 		"linespacing"	"14"
 		"linegap"		"5"
 		"textcolor"		"red"
-		
+
  		if_mvm
  		{
  			"visible"		"0"
@@ -435,7 +435,6 @@
 		"fieldName"		"PlayerNameLabel"
 		"xpos"			"9999"
 	}
-	
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
@@ -453,10 +452,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
-			"visible"	"0"
+			"visible"		"0"
 		}
 	}
 	"HorizontalLine"
@@ -497,7 +496,7 @@
 		{
 			"visible"		"1"
 		}
-		
+
 		"KillsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -508,7 +507,7 @@
 			"textAlignment"	"center"
 			"textinsetx"	"10"
 			"xpos"			"c-50"
-			"ypos"			"r54"	[$WIN32]
+			"ypos"			"r50"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -528,7 +527,6 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"AssistsLabel"
 			"font"			"robotoreg10"
-			"fgcolor"		"255 255 255 255"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"20"
@@ -547,7 +545,6 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"DestructionLabel"
 			"font"			"robotoreg10"
-			"fgcolor"		"255 255 255 255"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"	"north-west"
 			"textinsetx"	"20"
@@ -558,7 +555,7 @@
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 		}
 		"Kills"
@@ -571,7 +568,7 @@
 			"textAlignment"	"east"
 			"textinsetx"	"10"
 			"xpos"			"c-50"
-			"ypos"			"r52"
+			"ypos"			"r48"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"50"
@@ -590,7 +587,7 @@
 			"textAlignment"	"west"
 			"textinsetx"	"10"
 			"xpos"			"c0"
-			"ypos"			"r52"
+			"ypos"			"r48"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"50"
@@ -638,7 +635,7 @@
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 		}
 		"CapturesLabel"
@@ -944,7 +941,7 @@
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 		}
 		"Backstabs"
@@ -962,7 +959,7 @@
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 		}
 		"BonusLabel"
@@ -1005,14 +1002,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"robotoreg10"
 			"labelText"		"#TF_Scoreboard_Support"
-			"textAlignment"	"east"
-			"xpos"			"445"
-			"ypos"			"20"
+			"textAlignment"	"north-west"
+			"textinsetx"	"20"
+			"xpos"			"c-320"
+			"ypos"			"r25"
 			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
+			"wide"			"90"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1022,14 +1020,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"ScoreboardVerySmall"
+			"font"			"robotoreg12"
 			"labelText"		"%support%"
-			"textAlignment"	"west"
-			"xpos"			"545"
-			"ypos"			"20"
+			"textAlignment"	"north-east"
+			"textinsetx"	"10"
+			"xpos"			"c-320"
+			"ypos"			"r25"
 			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
+			"wide"			"90"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1039,14 +1038,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"robotoreg10"
 			"labelText"		"#TF_Scoreboard_Damage"
-			"textAlignment"	"east"
-			"xpos"			"445"
-			"ypos"			"30"
+			"textAlignment"	"north-west"
+			"textinsetx"	"20"
+			"xpos"			"c-140"
+			"ypos"			"r25"
 			"zpos"			"3"
-			"wide"			"95"
-			"tall"			"20"
+			"wide"			"90"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1056,14 +1056,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"ScoreboardVerySmall"
+			"font"			"robotoreg12"
 			"labelText"		"%damage%"
-			"textAlignment"	"west"
-			"xpos"			"545"
-			"ypos"			"30"
+			"textAlignment"	"north-east"
+			"textinsetx"	"10"
+			"xpos"			"c-140"
+			"ypos"			"r25"
 			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
+			"wide"			"90"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

@@ -36,7 +36,6 @@
 		"color_warning"		"TimerProgress.Warning"
 		"percent_warning"	"0.75"
 	}
-	
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -57,8 +56,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"WaitingForPlayersBG"
+		"xpos"				"9999"
 	}
-	
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -81,7 +80,6 @@
 		"fieldName"			"OvertimeBG"
 		"xpos"				"9999"
 	}
-	
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -104,7 +102,6 @@
 		"fieldName"			"SuddenDeathBG"
 		"xpos"				"9999"
 	}
-	
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -127,7 +124,6 @@
 		"fieldName"			"SetupBG"
 		"xpos"				"9999"
 	}
-	
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -144,7 +140,6 @@
 		"font"				"roboto15"
 		"fgcolor"			"White"
 	}
-	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"

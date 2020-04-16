@@ -11,9 +11,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
 	"specgui" { }
-	
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -28,7 +26,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -40,7 +37,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
@@ -52,7 +48,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -71,7 +66,6 @@
 		"fgcolor"		"255 255 255 255"
 		"fgcolor_override"	"255 255 255 255"
 	}
-	
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -90,7 +84,6 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
-	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -199,5 +192,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+	}
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 }

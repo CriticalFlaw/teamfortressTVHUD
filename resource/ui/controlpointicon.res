@@ -25,7 +25,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"CapPlayerImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -40,7 +40,7 @@
 		"image"			"capture_icon"
 		"scaleImage"	"1"
 	}
-	
+
 	"CapNumPlayers"
 	{	
 		"ControlName"	"Label"
@@ -60,7 +60,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"OverlayImage"
 	{
 		"ControlName"	"ImagePanel"

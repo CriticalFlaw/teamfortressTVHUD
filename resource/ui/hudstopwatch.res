@@ -6,7 +6,7 @@
 		"fieldName"		"HudStopWatchBG"
 		"xpos"			"9999"
 	}
-	
+
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,7 +25,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"TimePanelBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -76,7 +76,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
 	"StopWatchPointsLabel"
 	{
 		"ControlName"	"CExLabel"
